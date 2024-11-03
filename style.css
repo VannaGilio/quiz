@@ -8,14 +8,14 @@
 
 body{
     background-color: #f4f0ea;
-    color: #798252;
+    color: #719c8e;
     font-family: "Quicksand", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 header{
     padding: 2rem; /*margem, e unidade de medida relativa*/
-    background-color: #331f19;
+    background-color: #2e4440;
     text-align: center; /*alinhar texto*/
 }
 
@@ -33,19 +33,19 @@ section{
 }
 
 h2{
-    color: #331f19;
+    color: #2e4440;
     font-size: 1.2rem;
 }
 
 input[type="checkbox"], input[type="radio"]{
-    accent-color: #bbc38d;  
+    accent-color: #2e4440;  
     cursor: pointer;
 }
 
 input[type="text"], [type="password"], [type="date"], [type="email"]{
     width: 100%;
     padding: 0.6rem;
-    border: 2px solid #bbc38d;
+    border: 2px solid #719c8e;
     border-radius: 8px;
     outline: none;
     background-color: transparent;
@@ -53,14 +53,14 @@ input[type="text"], [type="password"], [type="date"], [type="email"]{
 }
 
 input:placeholder{
-    color: #cbbba7;
+    color: #82ad9f;
 }
 
 select {
     cursor: pointer;
-    background-color: #bbc38d;
+    background-color: #719c8e;
     padding: 0.3rem;
-    color: #331f19;
+    color:#2e4440;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -77,30 +77,30 @@ table{
 }
 
 th{
-    background-color: #bbc38d;
-    color: #331f19;
+    background-color: #719c8e;
+    color: #2e4440;
     padding: 1rem;
 }
 
 td{
-    color: #331f19;
+    color: #2e4440;
     padding: 1rem;
     text-align: center;
 }
 
 tfoot td{
-    background-color: #331f19;
+    background-color: #2e4440;
     color: #f4f0ea;
 }
 
 details {
-    background-color: #bbc38d;
+    background-color: #719c8e;
     border-radius: 7px;
     padding: 1rem;
 }
 
 summary{
-    color: #331f19;
+    color: #2e4440;
     margin: 0.5rem;
 }
 
@@ -109,38 +109,39 @@ ol{
 }
 
 ol li{
+    color: #2e4440;
     padding: 0.2rem;
 }
 
 fieldset{
-    border: 2px solid #bbc38d;
+    border: 2px solid#719c8e;
     border-radius: 7px;
     padding: 1rem;
 }
 
 legend{
-    color: #331f19;
+    color: #2e4440;
     padding: 0 0.5rem;
 }
 
 textarea{
     outline: none;
     border-radius: 7px;
-    border: 2px solid #bbc38d;
+    border: 2px solid#719c8e;
     background-color: transparent;
 }
 
 button{
-    background-color: #bbc38d;
+    background-color: #719c8e;
     border: none;
     padding: 0.8rem;
-    color: #331f19;
+    color: #2e4440;
     border-radius: 7px;
     cursor: pointer;
 }
 
 footer{
-    background-color: #331f19;
+    background-color: #2e4440;
     padding: 2rem;
     text-align: center;
 }
@@ -151,5 +152,5 @@ footer{
 
 footer a{
     text-decoration: none;
-    color: #bbc38d;
+    color: #719c8e;
 }
